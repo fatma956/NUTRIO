@@ -2,10 +2,13 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     padding: 20px;
+    background-color: #F5F5F5;
+    /* Light background for better readability */
 }
 
 h1 {
-    color: #333;
+    color: #28844B;
+    /* Dark green color */
 }
 
 nav ul {
@@ -20,11 +23,21 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #007BFF;
+    color: #28844B;
+    /* Dark green color */
+}
+
+nav ul li a:hover {
+    color: #C7FFAF;
+    /* Light green color on hover */
 }
 
 form {
     margin-top: 20px;
+    background-color: #C7FFAF;
+    /* Light green background for the form */
+    padding: 20px;
+    border-radius: 8px;
 }
 
 label {
@@ -35,16 +48,26 @@ label {
 input {
     margin-bottom: 10px;
     padding: 5px;
+    border: 1px solid #28844B;
+    /* Dark green border */
+    border-radius: 4px;
 }
 
 button {
     padding: 10px 15px;
-    background-color: #007BFF;
+    background-color: #28844B;
+    /* Dark green button */
     color: white;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #1E6E41;
+    /* Slightly darker green for hover */
+}
+
+#results {
+    margin-top: 20px;
 }
